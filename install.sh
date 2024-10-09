@@ -51,7 +51,7 @@ curl -O https://cinnamon-spices.linuxmint.com/files/extensions/cinnamon-dynamic-
 
 printf "${LCYAN}--------------------------------------------------------------------------------\n${LRED}"
 printf "Apply settings for spices using dconf or from applet/extension settings.\n\n"
-printf "\tExample: dconf save: 'dconf dump / > dconf-root.conf'\n"
-printf "\t\tdump: dconf dump: 'dconf dump / > dconf-root.conf'\n"
-printf "\t\tload: dconf load: 'dconf dump / < dconf-root.conf'\n"
+printf "\tExample:\n"
+printf "\t- dump: dconf dump: 'dconf dump / > dconf-root.conf'\n"
+printf "\t- load: dconf load: 'dconf load / < dconf-root.conf'\n"
 printf "${LCYAN}--------------------------------------------------------------------------------\n${GREEN}"
